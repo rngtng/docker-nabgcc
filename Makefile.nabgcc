@@ -1,0 +1,8 @@
+build:
+	cd nabgcc/ && make mtl_boot && make -j2
+
+firmware:
+	cd nabgcc/bin && ../utils/mkfirmware.php
+
+clean:
+	cd nabgcc/ && make clean
