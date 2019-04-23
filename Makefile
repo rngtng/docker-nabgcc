@@ -1,6 +1,6 @@
 
 build:
-	docker build -t nabaztag .
+	docker build -t nabgcc .
 
 run:
-	docker run -it -v `pwd`/nabgcc:/nabgcc nabaztag:latest
+	docker run -it -v `pwd`/nabgcc:/nabgcc nabgcc:latest
