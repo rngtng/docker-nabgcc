@@ -1,6 +1,6 @@
 
 build:
-	docker build -t nabaztag .
+	docker build -t mtl_linux .
 
 run:
-	docker run -it -v `pwd`/nabgcc:/nabgcc nabaztag:latest
+	docker run -it -v `pwd`/nabgcc:/nabgcc mtl_linux:latest
